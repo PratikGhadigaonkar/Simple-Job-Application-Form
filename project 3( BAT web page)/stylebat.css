@@ -31,3 +31,7 @@ a:visited {
     font-weight: bold;
     color: black;
 }
+
+.link {
+    color: chartreuse;
+}
