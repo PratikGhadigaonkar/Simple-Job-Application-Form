@@ -10,26 +10,47 @@ body {
 }
 
 .pimg1 {
-    background-image: url(images/img\ 1.jpg);
+    background-image: url(imagess/img\ 1.jpg);
     min-height: 100%;
-
 }
 
 .pimg2 {
-    background-image: url(images/img2.jpg);
-    min-height: 400px;
-
+    background-image: url(imagess/img2.jpeg);
+    min-height: 500px;
 }
 
 .pimg3 {
-    background-image: url(images/img3.jpg);
-    min-height: 400px;
+    background-image: url(imagess/img3.jpeg);
+    min-height: 500px;
+}
 
+.pimg4 {
+    background-image: url(imagess/img4.avif);
+    min-height: 500px;
+}
+
+.pimg5 {
+    background-image: url(imagess/img5.webp);
+    min-height: 500px;
+}
+
+.pimg6 {
+    background-image: url(imagess/img6.jpg);
+    min-height: 500px;
+}
+
+.pimg12 {
+    background-image: url(imagess/img12.jpg);
+    min-height: 100%;
 }
 
 .pimg1,
 .pimg2,
-.pimg3 {
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg12 {
     position: relative;
     background-position: center;
     background-size: cover;
@@ -48,8 +69,10 @@ body {
     text-transform: uppercase;
 }
 
-.textbg {
-    background-color: #313534;
+.textBg {
+    background: #e61409;
+    color: #1faeac;
+    padding: 20px;
 }
 
 .section {
@@ -59,11 +82,10 @@ body {
 
 .section-light {
     background-color: #f4f4f4;
-    color: #666;
-
+    color: #0b0909;
 }
 
 .section-dark {
-    background-color: #282e34;
+    background-color: #0d0d0e;
     color: #ddd;
 }
